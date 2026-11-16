@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discuss a measurement or calibration
+    url: mailto:erickim1492@gmail.com?subject=PACER%20measurement%20question
+    about: A source, convention or correction is enough to start.

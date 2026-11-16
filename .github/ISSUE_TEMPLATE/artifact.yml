@@ -1,0 +1,25 @@
+name: Reproduction or data issue
+description: Report a discrepancy or independently check a PACER artifact.
+title: "[Artifact] "
+body:
+  - type: input
+    id: artifact
+    attributes:
+      label: Exact artifact or figure
+      description: Include the archive version, file path or figure panel.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and environment
+      description: Include package versions, command and configuration where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed results
+      description: Distinguish stored-count analysis from trajectory regeneration. Include a minimal example where possible.
+    validations:
+      required: true

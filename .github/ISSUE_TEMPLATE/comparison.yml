@@ -1,0 +1,22 @@
+name: Proposed comparison
+description: Suggest a test that could change or explain the protection ordering.
+title: "[Comparison] "
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change, and what stays fixed?
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: What would the decoder know?
+      description: Specify the information available and its timing.
+  - type: textarea
+    id: distinguish
+    attributes:
+      label: What would this distinguish?
+      description: Cite relevant evidence or a counterexample if available.
+    validations:
+      required: true
